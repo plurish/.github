@@ -2,7 +2,7 @@
 
 🎮 Plurish is a gaming and live streaming service.
 
-🕹️ We are focused on distributing free and payed games for multiple platforms, such as desktop, web, console and mobile devices.
+🕹️ We are focused on distributing free and payed games for **multiple** <ins>(pluri)</ins> platforms, such as desktop, web, console and mobile devices.
 
 👥 Founders:
 - [Monique](https://github.com/MonRaes)
