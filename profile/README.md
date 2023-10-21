@@ -1,16 +1,15 @@
-## Hi there 👋
+## Plurish 
 
+🎮 Plurish is a gaming and live streaming service.
 
+🕹️ We are focused on distributing free and payed games for multiple platforms, such as desktop, web, console and mobile devices.
 
-**Here are some ideas to get you started:**
+👥 Founders:
+- [Monique](https://github.com/MonRaes)
+- [Thayane](https://github.com/Thayane25)
+- [Thiago](https://github.com/Ghitado)
+- [Adriano Padovesi](https://github.com/Padovesi)
+- [Gustavo Henrique](https://github.com/gustavenrique)
+- [Gustavo Formagio]()
 
-🙋‍♀️ A short introduction - what is your organization all about?
-
-🌈 Contribution guidelines - how can the community get involved?
-
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-
-🍿 Fun facts - what does your team eat for breakfast?
-
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-
+ℹ️ Get to know more by reading [our wiki](https://github.com/plurish/.github/wiki)
