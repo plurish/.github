@@ -6,8 +6,6 @@
 
 👥 Founders:
 
-![banner](https://github.com/plurish/.github/assets/81171856/03a0d0dd-48e5-4a1c-a0cf-d4d524d94e42)
-
 - [Monique](https://github.com/MonRaes)
 - [Thayane](https://github.com/Thayane25)
 - [Thiago](https://github.com/Ghitado)
