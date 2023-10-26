@@ -11,6 +11,6 @@
 - [Thiago](https://github.com/Ghitado)
 - [Adriano Padovesi](https://github.com/Padovesi)
 - [Gustavo Henrique](https://github.com/gustavenrique)
-- [Gustavo Formagio]()
+- [Gustavo Formagio](https://github.com/fmgustavo)
 
 ℹ️ Get to know more by reading [our wiki](https://github.com/plurish/.github/wiki)
