@@ -1,0 +1,136 @@
+.login-logo {
+    position: fixed; 
+    top: 10%;
+    right: 190px;
+    z-index: 2; 
+    font-size: 2.5rem !important;
+    font-weight: bold;
+    opacity: 0;
+    transition: all .25s;
+}
+
+@media (min-height: 500px) {
+    .login-logo { opacity: 1 }
+}
+
+.welcome-title {
+    position: fixed;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    text-transform: uppercase;
+    font-size: 2.5rem !important;
+    white-space: nowrap;
+    opacity: 0;
+    transition: all .25s;
+}
+
+@media (min-width: 850px) {
+    .welcome-title {
+        opacity: 1;
+    }
+}
+
+@media (min-width: 1300px) {
+    .welcome-title {
+        left: 40%;
+        transform: translateX(-40%);
+    }
+}
+
+.form-par {
+    position: absolute;
+	width: 10px;
+	height: 500px;
+	transform: skew(20deg);
+	background-image: black !important;
+}
+
+body {
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.5) 0.5%, var(--first)), url("/assets/img/login-bg.png") !important;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.login-form-container {
+    padding: 60px 45px 25px 100px;
+    width: clamp(250px, 100%, 550px) !important;
+    margin-left: auto;
+    height: 100vh !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: linear-gradient(var(--second), black);
+    clip-path: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+/* .login-input::placeholder { color: var(--text-first) !important; } */
+.login-input:focus { outline: none !important; }
+.login-input::selection { outline: none !important; }
+
+.login-input {
+    border: none !important;
+    font-size: 16px;
+    padding: 10px !important;
+    background-color: transparent !important;
+    color: var(--text-first) !important;
+    width: 100%;
+    transition: all 0.4s ease-in-out;
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #888;
+    transition: all .25s;
+}
+
+.input-wrapper:focus-within { 
+    border-bottom: 2px solid var(--accent) !important;
+}
+
+.eye-btn-wrapper {
+    height: 100%;
+    width: 10%;
+    cursor: pointer;
+    padding: 10px;
+}
+
+input::selection {
+    background-color: var(--first);
+    color: var(--text-first);
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+    position: relative; /* Required for the pseudo-element */
+}
+  
+  /* Style the custom checkbox */
+  input[type="checkbox"]::before {
+    content: ""; /* Required for the pseudo-element */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 8px;
+    height: 8px;
+    background-color: var(--accent);
+    border-radius: 2px;
+    display: none; /* Hide the checkmark by default */
+  }
+  
+  input[type="checkbox"]:checked::before {
+    display: block;
+  }
