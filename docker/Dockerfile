@@ -20,3 +20,6 @@ RUN curl -sS https://getcomposer.org/installer \
 
 RUN curl -1sLf 'https://dl.cloudsmith.io/public/symfony/stable/setup.deb.sh' | bash \
         && apt-get install symfony-cli
+
+RUN groupadd --force -g 1000 dev
+RUN useradd -ms /bin/bash --no-user-group -g 1000 -u 1000 dev
